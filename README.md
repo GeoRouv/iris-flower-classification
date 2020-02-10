@@ -6,12 +6,12 @@ The Iris Flowers dataset is a very well known and one of the oldest and simplest
 
 First get
 
--scipy \n
--numpy
--matplotlib
--pandas
--sklearn
-
+-scipy  
+-numpy  
+-matplotlib  
+-pandas  
+-sklearn  
+ 
 and make sure you have Python 2.7 or 3.6+
 
 ## Run
