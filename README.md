@@ -6,7 +6,7 @@ The Iris Flowers dataset is a very well known and one of the oldest and simplest
 
 First get
 
--scipy
+-scipy \n
 -numpy
 -matplotlib
 -pandas
