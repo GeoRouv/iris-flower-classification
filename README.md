@@ -16,4 +16,4 @@ and make sure you have Python 2.7 or 3.6+
 
 ## Run
 
-python3 Iris.py
+    python3 Iris.py
