@@ -22,8 +22,8 @@ shuffled before splitting in order to eliminate the possibility of any initial s
 in the dataset.
 
 - For every observation in the test set, its distance was calculated from all observations
-in the training set. For this report, 3 dierent distances were used in this step, to
+in the training set. For this report, 3 different distances were used in this step, to
 account for and report on the sensitivity of each distance metric:
- • Euclidean distance
- • Manhattan distance
- • Jaccard distance of sample sets
+  - Euclidean distance
+  - Manhattan distance
+  - Jaccard distance of sample sets
