@@ -21,9 +21,11 @@ and make sure you have Python 2.7 or 3.6+
 shuffled before splitting in order to eliminate the possibility of any initial structure
 in the dataset.
 
-- For every observation in the test set, its distance was calculated from all observations
-in the training set. For this report, 3 different distances were used in this step, to
+- For every observation in the test set, its distance is calculated from all observations
+in the training set. For this priject, 3 different distances were used in this step, to
 account for and report on the sensitivity of each distance metric:
   - Euclidean distance
   - Manhattan distance
   - Jaccard distance of sample sets
+
+- 5-fold Cross Validation was implemented to obtain the percentage of correct classification as a function of the number of nearest neighbours, for the different k values and distance metrics. The method for cross validation is generalized so as to accept a user-defined parameter of the number of groups that a given data sample is to be split into; for this report, 5 was chosen.
