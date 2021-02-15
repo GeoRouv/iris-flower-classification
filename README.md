@@ -19,7 +19,7 @@ and make sure you have Python 2.7 or 3.6+
 
 - The dataset was split into training set (80%) and test set (20%). The dataset is shuffled before splitting in order to eliminate the possibility of any initial structure in the dataset.
 
-- For every observation in the test set, its distance is calculated from all observations in the training set. For this priject, 3 different distances were used in this step, to account for and report on the sensitivity of each distance metric:
+- For every observation in the test set, its distance is calculated from all observations in the training set. For this project, 3 different distances were used in this step, to account for and report on the sensitivity of each distance metric:
   - Euclidean distance
   - Manhattan distance
   - Jaccard distance of sample sets
